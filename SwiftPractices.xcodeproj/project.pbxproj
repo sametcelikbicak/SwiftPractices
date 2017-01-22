@@ -250,6 +250,7 @@
 				A78106BA1E34B19000BD2CCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
