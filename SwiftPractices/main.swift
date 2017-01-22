@@ -8,5 +8,11 @@
 
 import Foundation
 
+//Hello World
 print("Hello, World!")
 
+
+//Get Name
+print("Please enter your name:")
+var name = readLine()
+print("\(name)")
