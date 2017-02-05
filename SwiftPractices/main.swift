@@ -16,3 +16,11 @@ print("Hello, World!")
 print("Please enter your name:")
 var name = readLine()
 print("\(name)")
+
+let tst = test()
+
+print(tst.x)
+print(tst.y)
+
+
+tst.sayHello(name:(name)!)
