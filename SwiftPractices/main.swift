@@ -19,8 +19,21 @@ print("\(name)")
 
 let tst = test()
 
-print(tst.x)
-print(tst.y)
+print(tst.varX)
+print(tst.varY)
+tst.varY=11
+tst.varX=22
+print(tst.varX)
+print(tst.varY)
+
+
+print(tst.letX)
+print(tst.letY)
+//tst.letX=11//error
+//tst.letY=22//error
+print(tst.tuple)
+print(tst.tuple.0)
+print(tst.tuple.1)
 
 
 tst.sayHello(name:(name)!)

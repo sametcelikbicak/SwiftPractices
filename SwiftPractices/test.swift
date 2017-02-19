@@ -7,9 +7,14 @@
 //
 
 class test {
-var x = 0
-var y=1
-
+    
+var varX = 10
+var varY = 20
+    
+let letY=10
+let letX=20
+    
+let tuple=(1,"Deneme")
     
     func sayHello(name : String) {
         print("Hello "+(name));
